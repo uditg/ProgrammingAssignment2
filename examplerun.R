@@ -1,0 +1,6 @@
+mat <- makeCacheMatrix(matrix(c(1, 1, 1, 1, -1, 1, -1, 1, 1),3,3))
+mat$get()
+mat$getinverse()
+cacheSolve(mat)
+mat$getinverse()
+cacheSolve(mat)
